@@ -1,21 +1,28 @@
+# CREATED BASED ON
+
+https://medium.com/@nirmalyaghosh/9-steps-for-dockerizing-a-rails-api-only-application-d65a8836f3df
+
 # README
 
-## HOW TO
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-For running commands
-`docker-compose run --rm api rails`
+Things you may want to cover:
 
-For getting to rails console
-`docker-compose exec api rails console` (this takes forever)
+- Ruby version
 
-g scaffold todo title completed:boolean order:integer
+- System dependencies
 
-## Rubocop
+- Configuration
 
-`docker-compose exec api bash`
-`rubocop`
+- Database creation
 
-## Errors
+- Database initialization
 
-A server is already running.
-Check server/tmp/pids/server.pid.
+- How to run the test suite
+
+- Services (job queues, cache servers, search engines, etc.)
+
+- Deployment instructions
+
+- ...
